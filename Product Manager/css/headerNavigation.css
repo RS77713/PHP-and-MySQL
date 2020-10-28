@@ -1,0 +1,46 @@
+
+/* Add a black background color to the top navigation */
+.header-right {
+ background-color: white;
+ overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.header-right a {
+ float: right;
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.header-right a:hover {
+ background-color: grey;
+ color: yellow;
+}
+
+/* Add an active class to highlight the current page */
+.header-right a.active {
+ background-color: #4CAF50;
+ color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.header-right .icon {
+ display: none;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}

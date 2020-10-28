@@ -1,0 +1,44 @@
+.table-wrapper {
+  background-color: grey;
+  background-image: url("DSC_0301.JPG");
+  background-size: cover;
+  position: relative;
+  height: 400px;
+  }
+.img{
+      max-width: 100%;
+      height: auto;
+      background: lightblue;
+      background: radial-gradient(white 30%, lightblue 70%);
+  }
+.checkbox{
+    position:left;
+  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+
+}
+#nav {
+  color: red;
+}
+.table-wrapper hover {
+  color: yellow;
+}
+body {
+
+}
+@media (max-width:500px) {
+
+}
+.footer img {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+}
+.label {
+  color: #2a9d8f;
+}
